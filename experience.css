@@ -1,0 +1,133 @@
+
+
+.sec-1-1{
+    text-align: center;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.sec-1-1 span{
+    font-size: 10px;
+}
+.sec-1-1 h1{
+    color: darkorange;
+}
+
+.sec-1-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 60px;
+
+}
+.sec-1-2 .front{
+    width: 400px;
+    height: 220px;
+    border: 2px solid;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.skills-1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sec-1-2-1{
+display: grid;
+grid-template-columns: auto auto;
+gap: 30px;
+}
+
+
+.skills-1>:nth-child(1){
+    font-size: 23px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.skills-1>:nth-child(2){
+    font-size: 15px;
+}
+
+.sec-1-2 .back{
+    width: 400px;
+    height: 220px;
+    border: 2px solid;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+}
+.sec-1-2-2{
+    display: grid;
+    gap: 30px;
+    }
+
+    .skills-2{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+.skills-2>:nth-child(1){
+    font-size: 23px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.skills-2>:nth-child(2){
+    font-size: 15px;
+}
+
+@media(max-width:1024px){
+    .sec-1-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 50px;
+    }
+
+}
+@media(max-width:896px){
+    .sec-1-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 50px;
+    }
+    #experience .arrow{
+        bottom:-20px;
+    }
+}
+@media(max-width:844px){
+    .sec-1-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 50px;
+    }
+    .sec-1-2 .front{
+        width: 350px;
+        padding: 10px;
+    }
+    .sec-1-2 .back{
+        width: 350px;
+        padding: 10px;
+
+    }
+
+}
