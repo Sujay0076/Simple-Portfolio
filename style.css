@@ -275,7 +275,7 @@ h5{
 
 
 }
-@media(max-width:667px){
+@media(max-width:800px){
     main{
         display: flex;
         flex-direction: column;
