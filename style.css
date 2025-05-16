@@ -300,4 +300,29 @@ h5{
         justify-content: center;
     }
 
+    @media(max-width:783px){
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 40px;
+    }
+    
+    .logo{
+        margin-bottom: 30px;
+        margin-top: 5px;
+        padding-left: 10px;
+
+    }
+
+    .right{
+        justify-content: center;
+        align-items: center;
+    }
+    .intro{
+        align-items: center;
+        justify-content: center;
+    }
+
 }
